@@ -15,6 +15,9 @@ This project is a web scraper designed to fetch trending videos from YouTube usi
 
 ### Prerequisites
 Ensure the following software is installed on your Linux system:
+ **XAMPP or any PHP server:** to host the PHP files.
+- **Browser:** to access the frontend.
+- **Git:** for cloning the repository (optional).
 
 1. **Node.js** (v14+)
    - Install Node.js:
@@ -98,6 +101,20 @@ Ensure the following software is installed on your Linux system:
    - Description: Fetch details of a specific video by its ID.
 
 ---
+4. ## Folder Structure
+```
+frontend/
+|-- assets/
+|   |-- css/
+|   |   |-- style.css
+|   |-- js/
+|       |-- script.js
+|-- pages/
+|   |-- video.php
+|-- index.php
+|-- .env (optional for API URLs)
+```
+
 
 ### Additional Notes
 - Ensure MongoDB service is running before starting the project.
@@ -111,6 +128,9 @@ Ensure the following software is installed on your Linux system:
 
 ## Contributors
 - **Akash Kumar** - Developer
+
+
+
 
 
 

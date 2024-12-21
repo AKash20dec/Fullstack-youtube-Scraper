@@ -106,7 +106,7 @@ Ensure the following software is installed on your Linux system:
 
 ### The Preview of this Project
 ![home page](https://github.com/AKash20dec/Fullstack-youtube-Scraper/blob/main/youtube_scraper/Screenshot%202024-12-21%20184506.png)
-![Single page](https://github.com/AKash20dec/Fullstack-youtube-Scraper/blob/main/youtube_scraper/Screenshot%202024-12-21%20184506.png)
+![Single page](https://github.com/AKash20dec/Fullstack-youtube-Scraper/blob/main/youtube_scraper/Screenshot%202024-12-21%20184434.png)
 ---
 
 ## Contributors

@@ -1,0 +1,135 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f1f1f1;
+  color: #333;
+}
+
+/* Header */
+header {
+  background-color: #111;
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.home-button {
+  background-color: #ff0000;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.home-button:hover {
+  background-color: #cc0000;
+}
+
+/* Main Section */
+main {
+  max-width: 1200px;
+  margin: 20px auto;
+  display: flex;
+  gap: 20px;
+}
+
+/* Video Player */
+.video-player iframe {
+  width: 100%;
+  height: 500px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Video Details */
+.video-details {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.video-details h2 {
+  font-size: 22px;
+  color: #333;
+}
+
+.description {
+  margin-top: 15px;
+  color: #555;
+  line-height: 1.5;
+}
+
+.buttons {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #ff0000;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #cc0000;
+}
+
+/* Channel Info */
+.channel-info {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.channel-info img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.channel-info h3 {
+  font-size: 18px;
+}
+
+.channel-info p {
+  color: #666;
+}
+
+.subscriber-count {
+  color: #ff0000;
+}
+
+/* Views and Likes */
+.views-likes {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.views-likes p {
+  font-size: 16px;
+  color: #555;
+}

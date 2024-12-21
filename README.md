@@ -104,15 +104,13 @@ Ensure the following software is installed on your Linux system:
 - Puppeteer uses a headless Chrome instance; ensure Google Chrome is installed and accessible.
 - Use Postman or any API testing tool to test the endpoints.
 
----
+### The Preview of this Project
 
-## License
-This project is licensed under the [MIT License](LICENSE).
 
 ---
 
 ## Contributors
-- **Your Name** - Developer
+- **Akash Kumar** - Developer
 
-Feel free to contribute to this project by submitting issues or pull requests.
+
 
